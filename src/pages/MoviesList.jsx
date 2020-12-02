@@ -8,19 +8,19 @@ import 'react-table-6/react-table.css'
 
 import './MoviesList.css'
 
-const Wrapper = styled.div`
-    padding: 0 40px 40px 40px;
-`
+// const Wrapper = styled.div`
+//     padding: 0 40px 40px 40px;
+// `
 
-const Update = styled.div`
-    color: #ef9b0f;
-    cursor: pointer;
-`
+// const Update = styled.div`
+//     color: #ef9b0f;
+//     cursor: pointer;
+// `
 
-const Delete = styled.div`
-    color: #ff0000;
-    cursor: pointer;
-`
+// const Delete = styled.div`
+//     color: #ff0000;
+//     cursor: pointer;
+// `
 
 
 
