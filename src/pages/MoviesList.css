@@ -1,0 +1,33 @@
+.Name{
+    color: white;
+}
+.Toto{
+    width: 100%;
+    height: auto;
+    margin: auto; 
+}
+.Card{
+    background-color: #343a40;
+    width: 350px;
+    height: 400px;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.ImgHold{
+    width:300px;
+    height:300px;
+    overflow: hidden;
+}
+.CardHold{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.Container{
+    min-height: 100vh;
+    padding:10px 5px;
+}

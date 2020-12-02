@@ -1,0 +1,9 @@
+.DescHold{
+    width: 300px;
+    height: 400px;
+    color:black;
+}
+.Container{
+    min-height: 100vh;
+    width: 400px;
+}
