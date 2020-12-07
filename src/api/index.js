@@ -11,7 +11,7 @@ export const deleteMovieById = id => api.delete(`/movie/${id}`)
 export const getMovieById = id => api.get(`/movie/${id}`)
 
 export const kdideas = ()=>fetch("http://localhost:3000/api/movies")
-// kdideas = (_id)=>fetch("http://localhost:3000/api/movies/"+_id)
+
 const apis = {
     insertMovie,
     getAllMovies,

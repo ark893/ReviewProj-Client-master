@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+import './link.css'
+
+
 const Collapse = styled.div.attrs({
     className: 'collpase navbar-collapse',
 })``
@@ -14,27 +17,42 @@ const Item = styled.div.attrs({
     className: 'collpase navbar-collapse',
 })``
 
+
+
+
+
 class Links extends Component {
     render() {
         return (
             <React.Fragment>
-                <Link to="/" className="navbar-brand">
-                    The Review Site
-                </Link>
+                <div className='container'>
+                {/* <div className = 'names'>
+                    {
+                        'The Review Site'
+                    }
+                </div> */}
                 <Collapse>
                     <List>
                         <Item>
-                            <Link to="/movies/list" className="nav-link">
-                                List Movies & TV Shows
-                            </Link>
+                            {/* <Link to="/movies/list" className="nav-link">
+                                
+                                    <div className = 'icon'>
+                                        List Movies & TV Shows
+                                    </div>
+                                 
+                            </Link> */}
                         </Item>
                         <Item>
-                            <Link to="/movies/create" className="nav-link">
-                                Create A Movie Or A TV Show
-                            </Link>
+                            {/* <Link to="/movies/create" className="nav-link">
+                               
+                                    <div className = 'icon'>
+                                    Create A Movie Or A TV Show
+                                    </div>
+                            </Link> */}
                         </Item>
                     </List>
                 </Collapse>
+                </div>
             </React.Fragment>
         )
     }

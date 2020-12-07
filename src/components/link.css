@@ -1,0 +1,12 @@
+.container{
+    width: 300px;
+}
+.icon{
+    
+    font-style: oblique;
+    font-size: large;
+    padding-left: 125px;
+    padding-right: 120px;
+    font-style: italic;
+    color: white;
+}

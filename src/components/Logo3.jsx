@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import logo from '../logo.svg'
+import logo2 from '../create_icon.svg'
 
 const Wrapper = styled.a.attrs({
     className: 'navbar-brand',
 })``
 
-class Logo extends Component {
+class Logo3 extends Component {
     render() {
         return (
-            <Wrapper href="/">
-                <img src={logo} width="50" height="50" alt="/" />
+            <Wrapper href="/movies/create">
+                <img src={logo2} width="50" height="50" alt="/movies/create" />
             </Wrapper>
         )
     }
 }
 
-export default Logo
+export default Logo3
